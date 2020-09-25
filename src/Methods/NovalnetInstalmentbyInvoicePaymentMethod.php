@@ -148,8 +148,8 @@ class NovalnetInstalmentbyInvoicePaymentMethod extends PaymentMethodBaseService
      */
     public function getDescription(string $lang = 'de'):string
     {
-        $description = trim($this->config->get('Novalnet.novalnet_instalment_invoice_description'));
-        return ($name ? $name : $this->paymentHelper->getTranslatedText('novalnet_instalment_invoice'));
+       $description = trim($this->config->get('Novalnet.novalnet_invoice_description'));
+        	return ($description ? $description : $this->paymentHelper->getTranslatedText('invoice_prepayment_payment_description'));
     }
 
     /**
