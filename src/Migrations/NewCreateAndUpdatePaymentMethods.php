@@ -18,10 +18,10 @@ use Plenty\Modules\Payment\Method\Contracts\PaymentMethodRepositoryContract;
 use Novalnet\Helper\PaymentHelper;
 
 /**
- * Class CreateAndUpdatePaymentMethods
+ * Class NewCreateAndUpdatePaymentMethods
  * @package Novalnet\Migrations
  */
-class CreateAndUpdatePaymentMethods
+class NewCreateAndUpdatePaymentMethods
 {
     /**
      * @var PaymentMethodRepositoryContract
