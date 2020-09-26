@@ -131,7 +131,7 @@ class NovalnetInstalmentbyInvoicePaymentMethod extends PaymentMethodBaseService
     public function getIcon(string $lang = 'de'):string
     {
         $logoUrl = $this->config->get('Novalnet.novalnet_instalment_invoice_payment_logo');
-        if($logoUrl == 'images/novalnet_instalment_invoice.png')
+        if($logoUrl == 'images/novalnet_invoice.png')
         {
             /** @var Application $app */
             $app = pluginApp(Application::class);
