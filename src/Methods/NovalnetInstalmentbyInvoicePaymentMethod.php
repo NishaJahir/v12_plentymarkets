@@ -135,7 +135,7 @@ class NovalnetInstalmentbyInvoicePaymentMethod extends PaymentMethodBaseService
         {
             /** @var Application $app */
             $app = pluginApp(Application::class);
-            $logoUrl = $app->getUrlPath('novalnet') .'/images/novalnet_instalment_invoice.png';
+            $logoUrl = $app->getUrlPath('novalnet') .'/images/novalnet_invoice.png';
         }
         return $logoUrl;
 
@@ -210,7 +210,7 @@ class NovalnetInstalmentbyInvoicePaymentMethod extends PaymentMethodBaseService
      public function getBackendIcon():string {
         /** @var Application $app */
         $app = pluginApp(Application::class);
-        $logoUrl = $app->getUrlPath('novalnet') .'/images/logos/novalnet_instalment_invoice_backend_icon.svg';
+        $logoUrl = $app->getUrlPath('novalnet') .'/images/logos/novalnet_invoice_backend_icon.svg';
         return $logoUrl;
     }
 }
