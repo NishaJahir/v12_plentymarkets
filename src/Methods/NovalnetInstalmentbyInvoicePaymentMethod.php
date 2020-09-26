@@ -193,17 +193,6 @@ class NovalnetInstalmentbyInvoicePaymentMethod extends PaymentMethodBaseService
     }
 
     /**
-     * Get name for the backend
-     *
-     * @param  string  $lang
-     * @return string
-     */
-    public function getBackendName(string $lang = 'de'):string
-    {
-        return $this->getName();
-    }
-
-    /**
      * Check if this payment method can handle subscriptions
      *
      * @return bool
